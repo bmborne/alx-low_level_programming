@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-	/*
-	 * main - Entry point
-	 * comments in C source code.
-	 * Please use it consistently.
-	 *
-	 * Description:  A column of asterisks on the left side,
-	 * with beginning and ending almost-blank lines.
-	 */
+  /*
+  * main - Entry point
+  *
+  *Return 0 as success
+  *
+  */
 
 int main(void)
 {
