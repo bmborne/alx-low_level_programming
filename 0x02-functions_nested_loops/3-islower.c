@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alphabet 10 times
- * Return:void
+ * _islower - Returns lower char
+ * @c - Return to check if the value is lower
  */
 
 int _islower(int c)
