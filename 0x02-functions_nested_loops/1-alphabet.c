@@ -1,9 +1,8 @@
 #include "main.h"
 
-/*
- *printf_alphabet - Entry Point
- *main.h function included
- * returtn 0 as success
+/**
+ * print_alphabet - Entry Point
+ * return 0 
  */
 
 void print_alphabet(void)
