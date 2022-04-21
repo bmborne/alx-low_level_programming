@@ -8,9 +8,9 @@
 int
 main(void)
 {
-	int n;
+	char n;
 
-	for (n = 0; n < 26; ++n)
+	for (n = 'a'; n < 'z'; ++n)
 	{
 		if (n != 'e' && n != 'q')
 			putchar (n);
