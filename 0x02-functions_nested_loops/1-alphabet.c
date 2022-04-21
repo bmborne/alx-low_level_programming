@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- *main - Entry Point
+ *printf_alphabet - Entry Point
  *main.h function included
  * returtn 0 as success
  */
