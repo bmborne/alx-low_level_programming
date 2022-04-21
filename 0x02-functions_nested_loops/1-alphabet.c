@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - Entry Point
- * return 0 
  */
 
 void print_alphabet(void)
