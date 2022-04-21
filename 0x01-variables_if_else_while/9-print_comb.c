@@ -10,10 +10,14 @@ main(void)
 {
 	int digit1;
 	/* Space after declaration */
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (digit1 = 0; digit1 <= 9; digit1++)
 	{
 		putchar((digit1 % 10) + '0');
+		if digit1 == 9
+			continue;
+		else
 		putchar(',');
+		putchar(' ');
 	}
 
 	putchar('\n');
