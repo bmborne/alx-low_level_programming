@@ -11,7 +11,7 @@ main(void)
 	int n;
 
 	for (n = 0; n < 26; ++n)
-		putchar ('a' + n);	
+		putchar ('a' + n);
 	for (n = 0; n < 26; ++n)
 		putchar ('A' + n);
 
