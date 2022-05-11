@@ -10,7 +10,7 @@ int _atoi(char *s)
 
 	while (s[i] != '\0')
 	{
-		_putchar(s[i]);
+		putchar(s[i]);
 		s++;
 	}
 	return (0);
