@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * print_name_as_is - prints a name as is
- * @name: name of the person
+ * print_name - Function to call a function
  *
- * Return: Nothing.
+ * @name: Parameter 1
+ * @f: parameter function
  */
- 
 void print_name(char *name, void (*f)(char *))
 {
 	if (f != NULL)
