@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * print_list - is a function that prints all elements of a list_t list
  * @h: is the string input
@@ -8,18 +8,14 @@
  */
 size_t print_list(const list_t *h)
 {
-site_t i;
-for (i = 0; h != NULL; i++)
+const list_t *tmp;
+unsigned int i;
+
+tmp = h;
+for (i = 0; tmp; i++)
 {
-if (h->str == NULL)
-{
-printf("[0] (nil)\n");
-}
-else
-{
-printf("[%u] %s\n", h->len, h->str);
-}
-h = h->next;
+printf("[%u] %s\n", tmp->len, tmp->str);
+tmp = tmp->next;
 }
 return (i);
 }
